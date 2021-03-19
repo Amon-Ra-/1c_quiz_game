@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3161739f-5065-4d6a-b7e1-eb14c1af3c93">
+  <producedTypes>
+    <selectionType typeId="b0cf0434-59a7-4d57-9bca-994cedc8ba9b" valueTypeId="f1e1f238-305e-42d4-9fdc-46dae63c9c38"/>
+    <listType typeId="81a07f5f-d93e-4b7b-9ffc-914d63426d2c" valueTypeId="deaf6ebd-9047-4dd2-b562-26997bffaf0d"/>
+    <managerType typeId="c6ac6c91-365c-4beb-a84e-cf6ef5302f6e" valueTypeId="f139297f-d0bd-437b-a811-7ef710b8a065"/>
+    <recordSetType typeId="3c781211-08a8-49fb-b383-faa2d62eeedc" valueTypeId="213fa698-4259-4d58-a88b-a7117794b290"/>
+    <recordKeyType typeId="a8b510ca-0238-42c6-985d-b916f1aaa6d8" valueTypeId="c4e59f2d-e512-4bdb-b004-15a667d2eb77"/>
+    <recordType typeId="5ecc0a4e-508e-479a-bd41-82df96c71261" valueTypeId="8aae2ec3-9a54-41e0-9d87-f4d2fd1d7c21"/>
+    <recordManagerType typeId="4ec04818-b564-4932-921d-d8a384c6da4f" valueTypeId="676f9c3e-8db0-442a-b600-dac3fda43e20"/>
+  </producedTypes>
+  <name>ОчередьОжиданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь ожиданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="ec09551a-257d-4007-a672-791abf1f1e4b">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f652806e-46f1-44c6-be47-5dc8a6ba94c9">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Команды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

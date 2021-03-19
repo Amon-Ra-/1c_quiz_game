@@ -41,4 +41,7 @@
   </languages>
   <subsystems>Subsystem.КомандыИгроков</subsystems>
   <subsystems>Subsystem.Судья</subsystems>
+  <catalogs>Catalog.Вопросы</catalogs>
+  <catalogs>Catalog.Команды</catalogs>
+  <informationRegisters>InformationRegister.ОчередьОжиданий</informationRegisters>
 </mdclass:Configuration>

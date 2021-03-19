@@ -7,4 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Вопросы</content>
+  <content>InformationRegister.ОчередьОжиданий</content>
 </mdclass:Subsystem>

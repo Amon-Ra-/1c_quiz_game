@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e516938-9f62-4efb-a9a3-0e0102767c17">
+  <producedTypes>
+    <objectType typeId="730805f5-b919-4f57-8234-a451ddbf249d" valueTypeId="bfbdc8ba-e981-4b85-9831-97053120274f"/>
+    <refType typeId="44ed3863-a607-4fc3-9b9e-33753db6aadd" valueTypeId="248a708d-e188-4753-beea-4d2f645f5043"/>
+    <selectionType typeId="357ada1b-026a-4f30-96dd-218f3e8fa02e" valueTypeId="0c9b48ab-466c-41f1-875e-31b8b327551c"/>
+    <listType typeId="c9b39867-3c01-4743-b16e-c76157b78aa8" valueTypeId="54ea821f-8d33-4949-93b1-af71dfb09701"/>
+    <managerType typeId="5f2da0c5-bce4-49ef-99fe-f6b97a43a9ff" valueTypeId="64afd6ba-2180-489f-b055-ebb4ddbce1a1"/>
+  </producedTypes>
+  <name>Вопросы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вопросы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Вопросы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Вопросы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
